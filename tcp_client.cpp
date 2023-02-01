@@ -50,7 +50,6 @@ int main(int argc, char const *argv[])
 	getaddrinfo(server_ip.c_str(), server_port.c_str(), &hints, &server_addr);
 
 	// TODO: Connect() to the server (hint: you'll need to use server_addr)
-	//int connectRes = connect(client_fd, (sockaddr*) server_addr, sizeof(server_addr));
 	int connectRes = connect(client_fd, server_addr->ai_addr, server_addr->ai_addrlen);
 	if (connectRes == -1) {
 		printf("failed to connect\n");

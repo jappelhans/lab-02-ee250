@@ -3,7 +3,7 @@
 
 ## Team Members
 - Jerry Appelhans
-- Riad Alasadi
+- n/a
 
 ## Lab Question Answers
 
